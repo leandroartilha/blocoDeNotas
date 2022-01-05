@@ -1,0 +1,95 @@
+
+.titulo{
+    margin-left: 13.5em;
+    margin-right: auto;
+    width: 10em;
+    font-size: 2.5em;
+    margin-top: 2em;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.bloco{
+    margin-left: auto;
+    margin-right: auto;
+    width: 28em;
+    
+
+}
+
+.quadrado{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    background-color: #c3a06e;
+    border-radius: 1em;
+    padding-bottom: 3.2em;
+}
+.input{
+    border-radius: 0.3em;
+    border-style: none;
+    font-size: 1.3em;
+    width: 18em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 13em;
+    font-size: 1.4em;
+    background-color:khaki;
+    border-style:outset;
+    border-color: black;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+
+.blocoLista{
+    
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24em;
+    background-color:#c3a06e;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    font-family: 'Shippori Antique', sans-serif;
+    text-align: center;
+
+}
+
+
+
+.item{
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    font-size: 1.3em;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.botaoConclui{
+    background-color: blanchedalmond;
+    margin-right: 5px;
+    font-size: 1em;
+    border-color: black;
+    margin-bottom: 0.4em;
+}
+
+.botaoConclui:hover{
+    cursor:pointer;
+}
+
+#linha {
+    width: 383px;
+    border: 1px solid #000;
+}
+
+.vrom{
+    text-decoration: line-through
+}
