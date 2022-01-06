@@ -8,12 +8,28 @@
     font-family: 'Shippori Antique', sans-serif;
 }
 
+
+
 .bloco{
     margin-left: auto;
     margin-right: auto;
     width: 28em;
-    
+}
 
+@media (max-width: 500px){
+    .titulo{
+        margin-left:2.4em;
+        margin-right: auto;
+        width: 10em;
+        font-size:2.4em;
+        margin-top: 1em;
+        font-family: 'Shippori Antique', sans-serif;
+    }
+    .bloco{
+        margin-left: auto;
+        margin-right: auto;
+        width: 24em;
+    }
 }
 
 .quadrado{
