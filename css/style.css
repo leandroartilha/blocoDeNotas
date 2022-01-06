@@ -126,7 +126,13 @@
 
 @media(max-width: 500px){
     .botaoConclui{
-        font-size: 1.3em;
+    background-color: blanchedalmond;
+    margin-right: 5px;
+    padding: auto;
+    font-size: 1.3em;
+    border-color: black;
+    margin-bottom: 0.4em;
+    font-family: 'Shippori Antique', sans-serif;
     }
 }
 
