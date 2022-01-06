@@ -18,7 +18,7 @@
 
 @media (max-width: 500px){
     .titulo{
-        margin-left:2.4em;
+        margin-left:auto;
         margin-right: auto;
         width: 10em;
         font-size:2.4em;
@@ -83,7 +83,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 2em;
-        width: 5em;
+        width: 6em;
         font-size: 1.6em;
         background-color:khaki;
         border-style:outset;
@@ -124,20 +124,21 @@
     font-family: 'Shippori Antique', sans-serif;
 }
 
+
+
+.botaoConclui:hover{
+    cursor:pointer;
+}
+
 @media(max-width: 500px){
     .botaoConclui{
     background-color: blanchedalmond;
-    
     padding: auto;
     font-size: 1.3em;
     border-color: black;
     margin-bottom: 0.4em;
     font-family: 'Shippori Antique', sans-serif;
     }
-}
-
-.botaoConclui:hover{
-    cursor:pointer;
 }
 
 #linha {
