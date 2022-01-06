@@ -29,6 +29,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 24em;
+        font-family: 'Shippori Antique', sans-serif;
     }
 }
 
@@ -50,6 +51,8 @@
     margin-right: auto;
 }
 
+
+
 .botao{
     margin-left: auto;
     margin-right: auto;
@@ -63,6 +66,29 @@
 
 .botao:hover{
     cursor: pointer;
+}
+
+@media (max-width: 500px){
+    .input{
+        border-radius: 0.3em;
+        border-style: none;
+        font-size: 1.3em;
+        width: 14em;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botao{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        width: 5em;
+        font-size: 1.6em;
+        background-color:khaki;
+        border-style:outset;
+        border-color: black;
+    }
 }
 
 
@@ -95,6 +121,13 @@
     font-size: 1em;
     border-color: black;
     margin-bottom: 0.4em;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+@media(max-width: 500px){
+    .botaoConclui{
+        font-size: 1.3em;
+    }
 }
 
 .botaoConclui:hover{
